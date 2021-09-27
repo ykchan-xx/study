@@ -1,0 +1,4 @@
+
+spring:
+  profiles:
+    active: dev #dev|prod 设置配置文件生效模式

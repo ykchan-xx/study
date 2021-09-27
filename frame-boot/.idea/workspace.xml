@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5418420e-1447-4332-a323-357969a77a4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea/.idea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/学习框架.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/README-as-common.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/README-as-core.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/README-as-data-mybatis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/README-as-webmvc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/FremsServicesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/annotation/AutoLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/annotation/Dict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/annotation/PermissionData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/base/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/constant/CacheConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/constant/CommonConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/constant/CommonSendStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/constant/DataBaseConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/constant/DySmsEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/constant/ProjectConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/constant/QuartzConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/constant/QuartzErrorMsgConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/handler/IFillRuleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/model/ComboModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/model/DictModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/model/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/model/SysDepartModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/model/SysUserCacheInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/query/MatchTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/query/QueryCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/query/QueryGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/query/QueryRuleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/BigDecimalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/DySmsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/FillRuleUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/QueryCondUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/SqlInjectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/YouBianCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/encryption/AesEncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/encryption/EncryptedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/util/oConvertUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/EecmiswsCallbackHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/EecmiswsCaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/EecmiswsStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/WsStateConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/dto/DataDownGabCrjxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/dto/DataDownGabRyLzxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/dto/KeyMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/dto/ModelDownGabFIIS_CRJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/dto/ModelDownGabTempRegInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/dto/WsResultBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/dto/WsResultGabCrjxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/dto/WsResultGabRyLzxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/common/ws/param/WsQueryParamGab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/config/QuartzJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/config/SpringApplicationContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/config/mybatis/MybatisInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/job/BaseJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/job/QuartzManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/job/SystemCommonJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykqyxx/controller/CykqyArchiveinfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykqyxx/dao/CykqyArchiveinfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykqyxx/dao/mapper/CykqyArchiveinfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykqyxx/entity/CykqyArchiveinfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykqyxx/service/ICykqyArchiveinfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykqyxx/service/impl/CykqyArchiveinfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykqyxx/vo/CykqyArchiveinfoPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykryxx/controller/CykqyRyxxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykryxx/dao/CykqyRyxxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykryxx/dao/mapper/CykqyRyxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykryxx/entity/CykqyRyxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykryxx/service/ICykqyRyxxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykryxx/service/impl/CykqyRyxxServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/cykryxx/vo/CykqyRyxxPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/controller/HdlQyxxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/dao/HdlQyfjDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/dao/HdlQyxxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/dao/mapper/HdlQyfjMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/dao/mapper/HdlQyxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/entity/HdlQyfj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/entity/HdlQyxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/service/IHdlQyfjService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/service/IHdlQyxxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/service/impl/HdlQyfjServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/service/impl/HdlQyxxServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_qyxx/vo/HdlQyxxPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/controller/HdlYgxxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/dao/HdlYgfjDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/dao/HdlYgxxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/dao/mapper/HdlYgfjMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/dao/mapper/HdlYgxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/entity/HdlYgfj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/entity/HdlYgxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/service/IHdlYgfjService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/service/IHdlYgxxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/service/impl/HdlYgfjServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/service/impl/HdlYgxxServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hdl_ygxx/vo/HdlYgxxPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hmd/controller/HmdxxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hmd/dao/HmdxxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hmd/dao/mapper/HmdxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hmd/entity/Hmdxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hmd/service/IHmdxxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hmd/service/impl/HmdxxServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/hmd/vo/HmdxxPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/qygl/controller/ArchiveinfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/qygl/dao/ArchiveinfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/qygl/dao/mapper/ArchiveinfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/qygl/entity/Archiveinfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/qygl/service/IArchiveinfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/qygl/service/impl/ArchiveinfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/qygl/vo/ArchiveinfoPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/controller/RyxxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/dao/RyfjxxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/dao/RyxxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/dao/mapper/RyfjxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/dao/mapper/RyxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/entity/Ryfjxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/entity/Ryxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/service/IRyfjxxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/service/IRyxxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/service/impl/RyfjxxServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/service/impl/RyxxServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/ryxx/vo/RyxxPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/shiro/authc/JwtToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/shiro/authc/ShiroRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/shiro/authc/aop/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/shiro/authc/aop/ResourceCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/shiro/vo/DefContants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/shiro/vo/ResponseBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/shiro/vo/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/shiro/web/TestWebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/statistics/controller/QyIndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/api/ISysBaseAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/aspect/AutoLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/aspect/DictAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/aspect/PermissionDataAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/DuplicateCheckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysAnnouncementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysAnnouncementSendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysDataLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysDepartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysDictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysDictItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysFillRuleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysPermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysPositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysQuartzJobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysUserAgentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysAnnouncementMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysAnnouncementSendMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysConfigDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysDataLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysDepartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysDictItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysDictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysFillRuleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysPermissionDataRuleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysPositionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysQuartzJobDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysRolePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysSmsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysSmsTemplateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysUserAgentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysUserDepartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/mapper/SysConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/mapper/SysQuartzJobMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysAnnouncementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysAnnouncementSendMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysDataLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysDepartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysDictItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysDictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysFillRuleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysPermissionDataRuleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysPositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysSmsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysSmsTemplateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysUserAgentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysUserDepartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/dao/xml/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysAnnouncement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysAnnouncementSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysDataLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysDepart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysDictItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysFillRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysPermissionDataRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysQuartzJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysRolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysSms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysSmsTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysUserAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysUserDepart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/entity/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/AnnouncementSendModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/DepartIdModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/DuplicateCheckVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/SysDepartTreeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/SysDictTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/SysLoginModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/SysPermissionDataRuleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/SysPermissionTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/SysUserSysDepartModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/TreeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/model/TreeSelectModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/rule/CategoryCodeRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/rule/OrgCodeRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysAnnouncementSendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysAnnouncementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysDataLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysDepartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysDictItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysDictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysFillRuleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysPermissionDataRuleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysPositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysQuartzJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysRolePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysSmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysSmsTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysUserAgentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysUserDepartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/ISysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysAnnouncementSendServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysAnnouncementServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysBaseApiImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysDataLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysDepartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysDictItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysDictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysFillRuleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysPermissionDataRuleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysPermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysPositionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysQuartzJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysRolePermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysSmsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysSmsTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysUserAgentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysUserDepartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/util/FindsDepartsChildrenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/util/JeecgDataAutorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/util/PermissionDataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/vo/SysConfigPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/vo/SysDepartUsersVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/vo/SysDictPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/vo/SysQuartzJobPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/vo/SysUserRoleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/system/websocket/WebSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/controller/XyxxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/dao/XyfjxxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/dao/XyxxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/dao/mapper/XyfjxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/dao/mapper/XyxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/entity/Xyfjxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/entity/Xyxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/service/IXyfjxxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/service/IXyxxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/service/impl/XyfjxxServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/service/impl/XyxxServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/xyxx/vo/XyxxPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/yjxx/controller/QyYjxxbController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/yjxx/dao/QyYjxxbDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/yjxx/dao/mapper/QyYjxxbMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/yjxx/dto/QyYjDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/yjxx/entity/QyYjxxb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/yjxx/service/IQyYjxxbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/yjxx/service/impl/QyYjxxbServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/com/aisino/frems/modules/yjxx/vo/QyYjxxbPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/java/lombok.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/CykqyRyxxList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/i18n/asframework.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/i18n/asframework_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/i18n/asframework_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/i18n/asframework_zh_TW.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/i18n/messages/businessMessage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/i18n/messages/businessMessage_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/i18n/messages/businessMessage_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/i18n/messages/businessMessage_zh_TW.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/logback-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/logback-prod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/modules/CykqyRyxxModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_contract.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_external_purchase.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_interior_purchase.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_kpsqxx.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_monthly_income.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_project_contract.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_project_contract2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_project_income.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_project_progress.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_project_progress.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_sqxmqk.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_task_gs.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/main/resources/template/template_task_qk.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/test/java/org/asframework/generator/GeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/test/java/org/asframework/generator/GeneratorTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/test/java/org/asframework/generator/cykgeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/test/java/org/asframework/test/AbstractAsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/test/java/org/asframework/test/GeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/src/test/java/org/asframework/test/GeneratorTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/CykqyRyxxList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/META-INF/frems-services.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/FremsServicesApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/annotation/AutoLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/annotation/Dict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/annotation/PermissionData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/base/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/constant/CacheConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/constant/CommonConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/constant/CommonSendStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/constant/DataBaseConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/constant/DySmsEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/constant/ProjectConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/constant/QuartzConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/constant/QuartzErrorMsgConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/handler/IFillRuleHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/model/ComboModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/model/DictModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/model/LoginUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/model/SysDepartModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/model/SysUserCacheInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/query/MatchTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/query/QueryCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/query/QueryGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/query/QueryGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/query/QueryRuleEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/BigDecimalUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/DySmsHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/FillRuleUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/PasswordUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/QueryCondUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/SpringContextUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/SqlInjectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/YouBianCodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/encryption/AesEncryptUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/encryption/EncryptedString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/util/oConvertUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsCallbackHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsCaller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$ExtensionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$Login$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$LoginNew$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$LoginNew.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$LoginNewResponse$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$LoginNewResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$LoginResponse$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$LoginResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$Unimethod$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$Unimethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$UnimethodResponse$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub$UnimethodResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/EecmiswsStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/WsStateConst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/dto/DataDownGabCrjxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/dto/DataDownGabRyLzxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/dto/KeyMapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/dto/ModelDownGabFIIS_CRJ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/dto/ModelDownGabTempRegInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/dto/WsResultBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/dto/WsResultGabCrjxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/dto/WsResultGabRyLzxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/common/ws/param/WsQueryParamGab.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/config/QuartzJobConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/config/SpringApplicationContextHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/config/WebSocketConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/config/mybatis/MybatisInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/job/BaseJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/job/QuartzManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/job/SystemCommonJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykqyxx/controller/CykqyArchiveinfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykqyxx/dao/CykqyArchiveinfoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykqyxx/dao/mapper/CykqyArchiveinfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykqyxx/entity/CykqyArchiveinfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykqyxx/service/ICykqyArchiveinfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykqyxx/service/impl/CykqyArchiveinfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykqyxx/vo/CykqyArchiveinfoPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykryxx/controller/CykqyRyxxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykryxx/dao/CykqyRyxxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykryxx/dao/mapper/CykqyRyxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykryxx/entity/CykqyRyxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykryxx/service/ICykqyRyxxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykryxx/service/impl/CykqyRyxxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/cykryxx/vo/CykqyRyxxPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/controller/HdlQyxxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/dao/HdlQyfjDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/dao/HdlQyxxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/dao/mapper/HdlQyfjMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/dao/mapper/HdlQyxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/entity/HdlQyfj.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/entity/HdlQyxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/service/IHdlQyfjService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/service/IHdlQyxxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/service/impl/HdlQyfjServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/service/impl/HdlQyxxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_qyxx/vo/HdlQyxxPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/controller/HdlYgxxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/dao/HdlYgfjDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/dao/HdlYgxxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/dao/mapper/HdlYgfjMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/dao/mapper/HdlYgxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/entity/HdlYgfj.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/entity/HdlYgxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/service/IHdlYgfjService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/service/IHdlYgxxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/service/impl/HdlYgfjServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/service/impl/HdlYgxxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hdl_ygxx/vo/HdlYgxxPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hmd/controller/HmdxxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hmd/dao/HmdxxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hmd/dao/mapper/HmdxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hmd/entity/Hmdxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hmd/service/IHmdxxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hmd/service/impl/HmdxxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/hmd/vo/HmdxxPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/qygl/controller/ArchiveinfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/qygl/dao/ArchiveinfoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/qygl/dao/mapper/ArchiveinfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/qygl/entity/Archiveinfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/qygl/service/IArchiveinfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/qygl/service/impl/ArchiveinfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/qygl/vo/ArchiveinfoPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/controller/RyxxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/dao/RyfjxxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/dao/RyxxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/dao/mapper/RyfjxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/dao/mapper/RyxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/entity/Ryfjxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/entity/Ryxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/service/IRyfjxxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/service/IRyxxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/service/impl/RyfjxxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/service/impl/RyxxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/ryxx/vo/RyxxPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/shiro/authc/JwtToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/shiro/authc/ShiroRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/shiro/authc/aop/JwtFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/shiro/authc/aop/ResourceCheckFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/shiro/vo/DefContants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/shiro/vo/ResponseBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/shiro/vo/UserBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/shiro/web/TestWebController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/statistics/controller/QyIndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/api/ISysBaseAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/aspect/AutoLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/aspect/DictAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/aspect/PermissionDataAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/CommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/DuplicateCheckController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysAnnouncementController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysAnnouncementSendController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysDataLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysDepartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysDictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysDictItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysFillRuleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysPermissionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysPositionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysQuartzJobController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysUserAgentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/controller/SysUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysAnnouncementMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysAnnouncementSendMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysConfigDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysDataLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysDepartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysDictItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysDictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysFillRuleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysPermissionDataRuleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysPermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysPositionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysQuartzJobDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysRolePermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysSmsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysSmsTemplateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysUserAgentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysUserDepartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/SysUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/mapper/SysConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/mapper/SysQuartzJobMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysAnnouncementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysAnnouncementSendMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysDataLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysDepartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysDictItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysDictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysFillRuleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysPermissionDataRuleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysPositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysSmsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysSmsTemplateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysUserAgentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysUserDepartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/dao/xml/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysAnnouncement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysAnnouncementSend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysDataLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysDepart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysDict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysDictItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysFillRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysPermissionDataRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysPosition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysQuartzJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysRolePermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysSms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysSmsTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysUserAgent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysUserDepart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/entity/SysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/AnnouncementSendModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/DepartIdModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/DuplicateCheckVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/SysDepartTreeModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/SysDictTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/SysLoginModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/SysPermissionDataRuleModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/SysPermissionTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/SysUserSysDepartModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/TreeModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/model/TreeSelectModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/rule/CategoryCodeRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/rule/OrgCodeRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysAnnouncementSendService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysAnnouncementService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysConfigService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysDataLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysDepartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysDictItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysDictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysFillRuleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysPermissionDataRuleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysPermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysPositionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysQuartzJobService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysRolePermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysSmsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysSmsTemplateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysUserAgentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysUserDepartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/ISysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysAnnouncementSendServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysAnnouncementServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysBaseApiImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysConfigServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysDataLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysDepartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysDictItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysDictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysFillRuleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysPermissionDataRuleImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysPermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysPositionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysQuartzJobServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysRolePermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysSmsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysSmsTemplateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysUserAgentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysUserDepartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysUserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/util/FindsDepartsChildrenUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/util/JeecgDataAutorUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/util/JwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/util/PermissionDataUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/vo/SysConfigPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/vo/SysDepartUsersVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/vo/SysDictPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/vo/SysQuartzJobPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/vo/SysUserRoleVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/system/websocket/WebSocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/controller/XyxxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/dao/XyfjxxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/dao/XyxxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/dao/mapper/XyfjxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/dao/mapper/XyxxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/entity/Xyfjxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/entity/Xyxx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/service/IXyfjxxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/service/IXyxxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/service/impl/XyfjxxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/service/impl/XyxxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/xyxx/vo/XyxxPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/yjxx/controller/QyYjxxbController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/yjxx/dao/QyYjxxbDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/yjxx/dao/mapper/QyYjxxbMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/yjxx/dto/QyYjDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/yjxx/entity/QyYjxxb.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/yjxx/service/IQyYjxxbService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/yjxx/service/impl/QyYjxxbServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/com/aisino/frems/modules/yjxx/vo/QyYjxxbPageQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/i18n/asframework.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/i18n/asframework_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/i18n/asframework_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/i18n/asframework_zh_TW.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/i18n/messages/businessMessage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/i18n/messages/businessMessage_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/i18n/messages/businessMessage_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/i18n/messages/businessMessage_zh_TW.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/logback-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/logback-prod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/modules/CykqyRyxxModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_contract.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_external_purchase.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_interior_purchase.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_kpsqxx.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_monthly_income.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_project_contract.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_project_contract2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_project_income.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_project_progress.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_project_progress.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_sqxmqk.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_task_gs.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/classes/template/template_task_qk.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/test-classes/org/asframework/generator/GeneratorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/test-classes/org/asframework/generator/GeneratorTest02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/test-classes/org/asframework/generator/cykgeneratorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/test-classes/org/asframework/test/AbstractAsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/test-classes/org/asframework/test/GeneratorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frems-services/target/test-classes/org/asframework/test/GeneratorTest02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/frame-vue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/idea.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/public/avatar2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/public/color.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/public/goright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/public/tinymce/langs/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/public/tinymce/skins/lightgray/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/public/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/public/v2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/api/manage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/background.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/daiban.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/duban.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ggxq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/governservice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/guaz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/3-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/3-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/3-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/3-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/3-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/asjtj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/sjdpzs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/index/zthy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/indexIcons/caozuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/indexIcons/daiban.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/indexIcons/dangan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/indexIcons/laifang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/indexIcons/ruku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/indexIcons/shouli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/indexIcons/zhenjian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/less/common.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/less/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/loginbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/medicalEnterpri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/medicalservice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/nodata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/pdf4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/portal/aisino_weibo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/portal/aisino_weixin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/portal/ecologyIndex-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/portal/ecologyIndex-tips.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/portal/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/portal/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/portal/shengtaixiangqing-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/portal/shengtaixiangqing-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/portal/xxgg-top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/portal/zlzq-top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-1f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-2f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-3f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-4f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-5f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/ptjs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/qrcode1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/qrcode2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/qrcode22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/qrcode3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/qrcode4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/qrcode5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/sqst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/sqst2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/sqsttp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/T1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/T2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/T3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/T4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/T5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/T6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/T7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/T8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/daiban.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/jh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/jh2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/sub.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/testImg/test2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/xxgg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/xxgg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/zaiban.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/zqzl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/assets/zqzl2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/cas/sso.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/AvatarList/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/AvatarList/List.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/AvatarList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/AvatarList/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/ChartCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/CountDown/CountDown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/CountDown/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/Ellipsis/Ellipsis.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/Ellipsis/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/NumberInfo/NumberInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/NumberInfo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/NumberInfo/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/Screenfull/Screenfull.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/Screenfull/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/Trend/Trend.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/Trend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/Trend/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/_util/StringUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/_util/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/AreaChartTy.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/Bar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/BarAndLine.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/BarMultid.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/DashChartDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/IndexBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/LineChartMultid.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/Liquid.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/MiniArea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/MiniBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/MiniProgress.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/Pie.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/Radar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/RankList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/TimeAndCountListChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/TimeAndIncrease.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/TransferBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/Trend.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/chart/chart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/dict/JDictSelectTag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/dict/JDictSelectUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/dict/JMultiSelectTag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/dict/JSearchSelectTag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/dict/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/dict/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JCategorySelect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JCheckbox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JCodeEditor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JCron.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JDate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JEditableTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JEditor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JEllipsis.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JFormContainer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JGraphicCode.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JImportModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JSelectMultiple.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JSlider.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JSuperQuery.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JTreeDict.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JTreeSelect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JTreeTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/JUpload.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/README_JEditableTable.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecg/modal/JCronModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/JSelectBizComponent/JSelectBizComponentModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/JSelectBizComponent/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/JSelectBizComponent/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/JSelectDepart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/JSelectMultiUser.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/JSelectPosition.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/JSelectRole.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/JSelectUserByDep.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/modal/JSelectDepartModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/modal/JSelectUserByDepModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/jeecgbiz/modal/SelectUserListModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/layouts/BasicLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/layouts/BlankLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/layouts/IframeFReportView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/layouts/IframePageView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/layouts/PageView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/layouts/RouteView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/layouts/TabLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/layouts/UserLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/layouts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/menu/Contextmenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/menu/SideMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/menu/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/page/GlobalFooter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/page/GlobalHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/page/GlobalLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/page/PageHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/page/PageLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/page/SHeaderNotice.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/setting/SettingDrawer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/setting/SettingItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/table/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/table/StandardTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/table/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/Breadcrumb.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/DepartSelect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/DetailList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/FooterToolBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/HeadInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/HeaderNotice.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/ShowAnnouncement.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/TwoStepCaptcha.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/UserMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/UserPassword.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/components/tools/setting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/config/router.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/defaultSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/mixins/DisabledAuthFilterMixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/mixins/JEditableTableMixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/mixins/JeecgListMixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/router/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/store/modules/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/store/modules/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/store/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/store/mutation-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/JEditableTableUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/LunarFullCalendarUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/authFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/commonUploadFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/encryption/aesEncrypt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/hasPermission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/permissions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/utils/vueBus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/center/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/center/page/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/center/page/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/center/page/Project.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/center/page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/settings/AvatarModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/settings/BaseSetting.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/settings/Binding.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/settings/Custom.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/settings/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/settings/Notification.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/account/settings/Security.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/dashboard/Analysis.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/dashboard/IndexBdc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/dashboard/IndexChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/dashboard/IndexChartBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/dashboard/IndexChartPie.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/dashboard/IndexTask.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/dashboard/Monitor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/dashboard/Workplace.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/exception/403.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/exception/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/exception/500.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/exception/ExceptionPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/exception/type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/fbgl/MtAdList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/fbgl/MtCommunityList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/fbgl/MtSectionList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/fbgl/PlatformIntroductionList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/fbgl/modules/MtAdModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/fbgl/modules/MtCommunityModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/fbgl/modules/MtSectionModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/fbgl/modules/PlatformIntroductionModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/form/BasicForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/form/advancedForm/AdvancedForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/form/advancedForm/RepositoryForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/form/advancedForm/TaskForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/form/stepForm/Step1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/form/stepForm/Step2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/form/stepForm/Step3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/form/stepForm/StepForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/hdl_qyxx/HdlQyxxList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/hdl_qyxx/modules/HdlQyxxModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/hdl_ygxx/HdlYgxxList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/hdl_ygxx/modules/HdlYgxxModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/ImagPreview.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/ImgDragSort.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/ImgTurnPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/InterfaceTest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/JeecgDemoList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/JeecgEditableTableExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/JeecgOrderMainList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/JeecgOrderMainListForJEditableTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/JeecgPdfView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/JeecgTreeTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/PrintDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/RowspanTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/SelectDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/SplitPanel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/TableExpandeSub.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/TableTotal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/helloworld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/helloworld2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/JEditableTable/DefaultTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/JEditableTable/ReadOnlyTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/JEditableTable/ThreeLinkage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/JeecgDemoModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/JeecgDemoTabsModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/JeecgOrderMainModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/JeecgOrderModalForJEditableTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/PdfPreviewModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/SplitPanelA.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/SplitPanelB.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/SplitPanelModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/SuperQueryModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/modules/VueCronModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/report/Analysis.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/report/ArchivesStatisticst.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/report/ViserChartDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/tablist/JeecgOrderCustomerList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/tablist/JeecgOrderDMainList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/tablist/JeecgOrderTicketList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/tablist/form/JeecgOrderCustomerModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/tablist/form/JeecgOrderDMainModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/jeecg/tablist/form/JeecgOrderTicketModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/list/CardList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/list/PermissionList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/list/RoleList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/list/StandardList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/list/TableInnerEditList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/list/TableList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/list/UserList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/list/modules/RoleModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/list/search/SearchLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/aboutus/MtAboutusList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/aboutus/modules/MtAboutusModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/message/SysMessageList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/message/SysMessageTemplateList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/message/modules/SysMessageModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/message/modules/SysMessageTemplateModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/message/modules/SysMessageTestModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/monitor/DiskMonitoring.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/monitor/HttpTrace.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/monitor/JvmInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/monitor/RedisInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/monitor/RedisTerminal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/monitor/SystemInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/monitor/TomcatInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/online/cgform/OnlCgformCopyList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/online/cgform/OnlCgformHeadList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/online/cgform/auto/OnlCgformAutoList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/online/cgform/auto/OnlCgformTreeList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/online/cgform/util/TableUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/online/cgreport/OnlCgreportHeadList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/online/cgreport/auto/OnlCgreportAutoList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/modules/oss/OSSFileList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/profile/advanced/Advanced.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/profile/basic/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/ArchiveinfoList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/CykqyArchiveinfoList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/CykqyRyxxList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/HmdxxList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/RyxxList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/XyxxList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/YjxxList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/modules/ArchiveinfoModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/modules/CykqyArchiveinfoModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/modules/CykqyRyxxModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/modules/HmdxxModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/modules/RyxxModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/modules/XyxxModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/modules/YjxxModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/qygl/modules/YjxxXqModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/result/Error.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/result/Result.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/result/Success.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/AddressList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/DataLogList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/DepartList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/DepartList2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/DepartUserList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/DictDeleteList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/DictItemList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/DictList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/LogList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/NewPermissionList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/PermissionDataRuleList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/PermissionList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/QuartzJobList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/RoleList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/RoleUserList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/SysAnnouncementList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/SysCategoryList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/SysConfigList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/SysFillRuleList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/SysPositionList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/UserAnnouncementList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/UserList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/AddressListLeft.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/AddressListRight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/DataLogCompareModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/DataLogModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/DepartModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/DepartWindow.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/DeptBaseInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/DeptUserInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/DictItemModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/DictModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/PasswordModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/PermissionDataRuleModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/PermissionModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/QuartzJobModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/RoleDataruleModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/RoleModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/SelectUserListModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/SelectUserModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/SysAnnouncementModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/SysCategoryModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/SysConfigModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/SysFillRuleModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/SysPositionModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/SysUserAgentModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/UserModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/UserRoleModal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/icon/Icon.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/system/modules/icon/Icons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/user/Alteration.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/user/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/user/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/user/RegisterResult.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/user/Step1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/user/Step2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/user/Step3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/src/views/user/Step4.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/yarn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frame-vue/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>zf</find>
+      <find>清空</find>
+      <find>getAction</find>
+      <find>records</find>
+      <find>‘</find>
+      <find>丹</find>
+      <find>/qygl</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3-bin\MavenRepo" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yZxonlFlrDmRHpTvXw9LiH3y7p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1632470328671" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15722656" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="D:\IntelliJ IDEA 2018.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\frame-vue\src\views\qygl" />
+      <recent name="D:\study\frame-vue\src\views\qygl\modules" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.asframework.generator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\frame-vue\src\views\qygl" />
+      <recent name="D:\study\frame-vue\src\views\qygl\modules" />
+      <recent name="D:\study\frame-boot\frems-services\src\test\java\org\asframework\test" />
+      <recent name="D:\study\frame-boot\frems-services\src\main\java\com\aisino\frems\modules" />
+      <recent name="D:\学习框架\frame-boot\frems-services\src\main\java\com\aisino\frems\modules" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="GeneratorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="frems-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.asframework.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.asframework.generator" />
+      <option name="MAIN_CLASS_NAME" value="org.asframework.generator.GeneratorTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cykgeneratorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="frems-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.asframework.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.asframework.generator" />
+      <option name="MAIN_CLASS_NAME" value="org.asframework.generator.cykgeneratorTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FremsServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="frems-services" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aisino.frems.FremsServicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../frame-vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.GeneratorTest.test" />
+      <item itemvalue="JUnit.cykgeneratorTest.test" />
+      <item itemvalue="npm.serve" />
+      <item itemvalue="Spring Boot.FremsServicesApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.cykgeneratorTest.test" />
+        <item itemvalue="JUnit.GeneratorTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5418420e-1447-4332-a323-357969a77a4b" name="Default Changelist" comment="" />
+      <created>1632362089313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632362089313</updated>
+      <workItem from="1632362090635" duration="1048000" />
+      <workItem from="1632363189870" duration="495000" />
+      <workItem from="1632363728185" duration="975000" />
+      <workItem from="1632364750260" duration="242000" />
+      <workItem from="1632365035768" duration="2126000" />
+      <workItem from="1632367231083" duration="163000" />
+      <workItem from="1632367434538" duration="12805000" />
+      <workItem from="1632386693919" duration="1812000" />
+      <workItem from="1632388571824" duration="838000" />
+      <workItem from="1632442714573" duration="3634000" />
+      <workItem from="1632446412356" duration="7345000" />
+      <workItem from="1632454642087" duration="6320000" />
+      <workItem from="1632462646951" duration="5817000" />
+      <workItem from="1632469626398" duration="749000" />
+      <workItem from="1632473108586" duration="648000" />
+      <workItem from="1632473801973" duration="78000" />
+      <workItem from="1632473907331" duration="384000" />
+      <workItem from="1632474321289" duration="216000" />
+      <workItem from="1632474810489" duration="339000" />
+      <workItem from="1632704756689" duration="12000" />
+      <workItem from="1632704784142" duration="3225000" />
+      <workItem from="1632709274733" duration="6270000" />
+      <workItem from="1632717391423" duration="6216000" />
+      <workItem from="1632726345910" duration="1058000" />
+      <workItem from="1632727967745" duration="693000" />
+      <workItem from="1632728668784" duration="200000" />
+      <workItem from="1632728901169" duration="197000" />
+      <workItem from="1632729139271" duration="269000" />
+      <workItem from="1632729420738" duration="116000" />
+      <workItem from="1632729550920" duration="45000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1632461812932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632461812932</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1632461827301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632461827301</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1632706750758</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632706750758</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1632706773747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632706773747</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1632706820034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632706820034</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1632712414059</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632712414059</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1632714509686</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632714509687</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../frame-vue" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Project_Structure" timestamp="1632713461900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1632713461900" />
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1632727068599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1632727068599" />
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1632729058710">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1632729058710" />
+    <state width="1322" height="82" key="GridCell.Tab.0.bottom" timestamp="1632728662727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="82" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1632728662727" />
+    <state width="1322" height="82" key="GridCell.Tab.0.center" timestamp="1632728662723">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="82" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1632728662723" />
+    <state width="1322" height="82" key="GridCell.Tab.0.left" timestamp="1632728662721">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="82" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1632728662721" />
+    <state width="1322" height="82" key="GridCell.Tab.0.right" timestamp="1632728662725">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="82" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1632728662725" />
+    <state width="1322" height="253" key="GridCell.Tab.1.bottom" timestamp="1632728662707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="253" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1632728662707" />
+    <state width="1322" height="253" key="GridCell.Tab.1.center" timestamp="1632728662707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="253" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1632728662707" />
+    <state width="1322" height="253" key="GridCell.Tab.1.left" timestamp="1632728662707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="253" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1632728662707" />
+    <state width="1322" height="253" key="GridCell.Tab.1.right" timestamp="1632728662707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="253" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1632728662707" />
+    <state width="1322" height="207" key="GridCell.Tab.2.bottom" timestamp="1632724849309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="207" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1632724849309" />
+    <state width="1322" height="207" key="GridCell.Tab.2.center" timestamp="1632724849309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="207" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1632724849309" />
+    <state width="1322" height="207" key="GridCell.Tab.2.left" timestamp="1632724849309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="207" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1632724849309" />
+    <state width="1322" height="207" key="GridCell.Tab.2.right" timestamp="1632724849309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="207" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1632724849309" />
+    <state width="1322" height="217" key="GridCell.Tab.3.bottom" timestamp="1632705908011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1632705908011" />
+    <state width="1322" height="217" key="GridCell.Tab.3.center" timestamp="1632705908011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1632705908011" />
+    <state width="1322" height="217" key="GridCell.Tab.3.left" timestamp="1632705908011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1632705908011" />
+    <state width="1322" height="217" key="GridCell.Tab.3.right" timestamp="1632705908011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1632705908011" />
+    <state x="344" y="60" key="NewModule_or_Project.wizard" timestamp="1632709472587">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="344" y="60" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1632709472587" />
+    <state x="445" y="85" key="RollbackChangesDialog" timestamp="1632727082157">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="445" y="85" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1632727082157" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1632729594543">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1632729594543" />
+    <state x="363" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1632728903850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1632728903850" />
+    <state x="418" y="207" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632713045607">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="418" y="207" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1632713045607" />
+    <state x="53" y="0" key="new project wizard" timestamp="1632729096200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="53" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1632729096200" />
+    <state x="513" y="154" key="svn.repositoryBrowser" timestamp="1632727247378">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="154" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1632727247378" />
+    <state x="446" y="266" key="svn.sslCredentialsDialog" timestamp="1632705662227">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="446" y="266" key="svn.sslCredentialsDialog/0.0.1366.728@0.0.1366.728" timestamp="1632705662227" />
+    <state x="391" y="127" key="svn4idea.import.options" timestamp="1632727236038">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="127" key="svn4idea.import.options/0.0.1366.728@0.0.1366.728" timestamp="1632727236038" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/frems-services/src/test/java/org/asframework/generator/GeneratorTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/apache-maven-3.6.3-bin/MavenRepo/org/asframework/as-generator/1.1.0/as-generator-1.1.0.jar!/org/asframework/generator/AsCodeGenerator.class</url>
+          <line>110</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

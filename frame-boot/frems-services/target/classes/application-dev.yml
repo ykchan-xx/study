@@ -1,0 +1,103 @@
+server:
+  port: 8187
+  tomcat:
+    max-swallow-size: -1
+  servlet:
+    context-path: /frems-services
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  main:
+    allow-bean-definition-overriding: true
+    mvc:
+      static-path-pattern: /**
+    resource:
+      static-locations: classpath:/static/,classpath:/public/
+  datasource:
+    name: dataSource # 数据源名称
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://192.168.7.16:3307/vue-study?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+      username: study
+      password: study0713
+      filters: stat,wall
+      initial-size: 1
+      max-active: 20
+      min-idle: 1
+      max-wait: 60000
+      #间隔多久进行一次检测，检测需要关闭的空闲连接
+      time-between-eviction-runs-millis: 60000
+      #一个连接在池中最小生存的时间
+      min-evictable-idle-time-millis: 30000
+      validation-query: SELECT 'x' FROM DUAL
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      #打开PSCache，并指定每个连接上PSCache的大小。oracle设为true，mysql设为false。分库分表较多推荐设置为false
+      pool-prepared-statements: false
+      max-pool-prepared-statement-per-connection-size: 20
+  #  redis:
+  #    database: 0
+  #    timeout: 3000s
+  #    host: 127.0.0.1
+  #    port: 6379
+  #    password:
+  #    lettuce:
+  #      pool:
+  #        max-active: 8
+  #        max-wait: 2000s
+  #        max-idle: 100
+  #        min-idle: 50
+  messages:
+    #i18n config
+    basename: i18n.asframework,i18n.messages.businessMessage
+
+#mybatis plus 设置
+mybatis-plus:
+  mapper-locations: classpath*:com/aisino/frems/modules/**/xml/*Mapper.xml,classpath*:com/aisino/frems/modules/**/mapper/*Mapper.xml
+  global-config:
+    # 关闭MP3.0自带的banner
+    banner: false
+    db-config:
+      # 默认数据库表下划线命名
+      table-underline: true
+      #全局逻辑删除字段值
+      logic-delete-field: del_flag
+      # 逻辑已删除值(默认为 1)
+      logic-delete-value: 1
+      # 逻辑未删除值(默认为 0)
+      logic-not-delete-value: 0
+
+logging:
+  config: classpath:logback-dev.xml
+
+#自定义扩展的参数
+asframework:
+  token-expire: 7200 #token有效时长（秒），小于等于0表示永远不失效
+  i18n:
+    default-lang: zh-CN #zh-CN|zh-TW|en-US,配置国际化语言,缺省值zh-CN
+  druid: #druid监控页面配置
+    login-username: asadmin
+    login-password: asadmin
+    reset-enable: false #是否可以重置数据源
+    allow-ip: 127.0.0.1 #白名单，为空时表示不限制
+    deny-ip: #黑名单，优先级高于白名单
+  swagger:
+    enable: true
+    title: Restful Swagger API test
+    description: Restful Swagger API test.
+    basePackage: com.aisino.frems.modules
+    version: 1.0
+  shiro:
+    excludeUrls:
+      /portal/**,/big/screen/**,/bigscreen/**
+
+jeecg :
+  path :
+    #文件上传根目录 设置
+    upload: D://upFiles
+    #webapp文件路径
+    webapp: D://webapp
