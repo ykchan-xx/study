@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
+    <option name="languageLevel" value="JSX" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -29,5 +29,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WebPackConfiguration">
+    <option name="path" value="$PROJECT_DIR$/../frame-vue/alias.js" />
   </component>
 </project>

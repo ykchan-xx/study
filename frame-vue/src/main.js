@@ -41,6 +41,11 @@ import hasPermission from '@/utils/hasPermission'
 import vueBus from '@/utils/vueBus';
 import JeecgComponents from '@/components/jeecg/index'
 
+//import vue-json-excel
+
+import JsonExcel from 'vue-json-excel'
+Vue.component('downloadExcel', JsonExcel)
+
 Vue.config.productionTip = false
 Vue.use(Storage, config.storageOptions)
 Vue.use(Antd)

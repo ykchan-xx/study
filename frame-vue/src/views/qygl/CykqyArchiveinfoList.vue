@@ -48,15 +48,34 @@
     </div>
 
     <!-- 操作按钮区域 -->
-    <div class="table-operator">
-      <a-button @click="handleAdd" type="primary" icon="plus">新增</a-button>
+    <div class="table-operator" style="display: flex" >
+        <a-button @click="handleAdd" type="primary" icon="plus">新增</a-button>
       <a-dropdown v-if="selectedRowKeys.length > 0">
         <a-menu slot="overlay">
           <a-menu-item key="1" @click="batchDel"><a-icon type="delete"/>删除</a-menu-item>
         </a-menu>
         <a-button style="margin-left: 8px"> 批量操作 <a-icon type="down" /></a-button>
       </a-dropdown>
+
+      <download-excel
+        class   = "btn btn-default"
+        :data   = "json_data"
+        :fields = "json_fields"
+        :meta   = "json_meta"
+        worksheet = "My Worksheet"
+        type    = "xls"
+        name    = "企业信息.xls">
+        <a-button  icon="vertical-align-bottom" style="margin-left: 8px" >导出</a-button>
+      </download-excel>
+
     </div>
+
+
+
+
+
+
+
 
     <!-- table区域-begin -->
     <div>
@@ -105,6 +124,7 @@
 <script>
   import CykqyArchiveinfoModal from './modules/CykqyArchiveinfoModal'
   import { JeecgListMixin } from '@/mixins/JeecgListMixin'
+  import {getAction} from "@/api/manage";
 
   export default {
     name: "CykqyArchiveinfoList",
@@ -114,6 +134,52 @@
     },
     data () {
       return {
+        //test
+        json_fields: {
+          '企业名称': 'qymc',
+          '企业类别': 'qylb',
+          '企业编码': 'qybm',
+          '注册资金': 'zczj',
+          '法人' : 'fr',
+          '联系人': 'lxr',
+          '联系电话': 'lxdh',
+          '企业总人数': 'qyzrs',
+          '目前境内人数': 'mqjnrs'
+
+
+
+        },
+        json_data: [],
+        //   {
+        //     'name': 'Tony Peña',
+        //     'city': 'New York',
+        //     'country': 'United States',
+        //     'birthdate': '1978-03-15',
+        //     'phone': {
+        //       'mobile': '1-541-754-3010',
+        //       'landline': '(541) 754-3010'
+        //     }
+        //   },
+        //   {
+        //     'name': 'Thessaloniki',
+        //     'city': 'Athens',
+        //     'country': 'Greece',
+        //     'birthdate': '1987-11-23',
+        //     'phone': {
+        //       'mobile': '+1 855 275 5071',
+        //       'landline': '(2741) 2621-244'
+        //     }
+        //   }
+        // ],
+        json_meta: [
+          [
+            {
+              'key': 'charset',
+              'value': 'utf-8'
+            }
+          ]
+        ],
+
         description: 'cyk企业信息管理页面',
         // 表头
         columns: [
@@ -235,8 +301,29 @@
 
     },
     methods: {
-     
+
+    },
+    // created() {
+    //   getAction(this.url.list).then((res) => {
+    //     if (res.success) {
+    //       this.json_data = res.data.records;
+    //
+    //     }
+    //     this.loading = false;
+    //   })
+    // },
+    mounted() {
+      getAction(this.url.list).then((res) => {
+        if (res.success) {
+          this.json_data = res.data.records;
+
+        }
+        this.loading = false;
+      })
     }
+
+
+
   }
 </script>
 <style lang="less" scoped>
